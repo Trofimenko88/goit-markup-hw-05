@@ -246,6 +246,9 @@ a.header-link.current.link {
   padding-right: 32px;
   width: 200px;
   height: 50px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden {
   opacity: 0;
@@ -261,7 +264,6 @@ a.header-link.current.link {
   background-color: rgba(0, 0, 0, 0.2);
   transition: opacity 250ms, visibility 250ms;
 }
-
 
 .hero-btn:hover,
 .hero-btn:focus {
@@ -635,6 +637,9 @@ a.header-link.current.link {
 
 .button-icon {
 color: currentColor;
+transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers {
@@ -677,7 +682,9 @@ color: currentColor;
 .customers-link:focus {
   color: #2196F3;
   border: 1px solid #2196F3;
-  
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-img {
